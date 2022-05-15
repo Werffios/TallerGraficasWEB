@@ -109,14 +109,14 @@ fetch(url2)
 
     var layout =
     {
-        title: 'Inventa',
+        title: 'Contagiados',
         xaxis:
         {
-            title: 'Año'
+            title: 'Municipio'
         },
         yaxis:
         {
-            title: 'Cabezas de ganado'
+            title: 'Cantidad de contagiados'
         },
         font: {
     family: 'Courier New, monospace',
