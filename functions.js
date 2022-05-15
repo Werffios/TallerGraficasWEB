@@ -66,5 +66,23 @@ fetch(url)
     };
     var datosGrafica2 = [graf2];
     Plotly.newPlot('graafico', datosGrafica2, layout);
+
+    Plotly.newPlot('grafico', datosGraficas, layout);
+    var graf3=
+    {
+        y: total,
+        x: fecha,
+        type: 'scatter',
+        marker: {
+        color: 'rgb(123,456,789)',
+            line: {
+            color: 'rgb(255,0,0)',
+            width: 0.1
+            }
+        }
+
+    };
+    var datosGrafica3 = [graf3];
+    Plotly.newPlot('graafico', datosGrafica3, layout);
 });
 
