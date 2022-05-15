@@ -89,9 +89,6 @@ fetch(url2)
         municipio.push(result.value)
     });
 
-
-    console.log(cantidad);
-
     var graf1=
     {
         y: municipio,
